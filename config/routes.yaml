@@ -1,0 +1,9 @@
+refund_all:
+    path: /refund/all
+    controller: App\Infrastructure\Controller\RefundController::refundAll
+    methods: [POST]
+
+refund_partial:
+  path: /refund/partial
+  controller: App\Infrastructure\Controller\RefundController::refundPartial
+  methods: [POST]
